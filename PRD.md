@@ -1,8 +1,7 @@
 
-
 Target Users# Campus Electricity
 
- Project Overview
+1. Project Overview
 
 The Campus Electricity Monitoring and Reporting System is a proposed digital 
 platform designed to help students report electricity outages and receive
@@ -24,7 +23,7 @@ Lecturers: May experience interruptions during online teaching and other academi
 
 Lecturers:May experience interruptions during online teaching and other academic activities.
 
-Existing Solutions and Their Limitations
+2. Existing Solutions and Their Limitations
 
 Students currently manage electricity problems by:
 
@@ -33,13 +32,13 @@ Students currently manage electricity problems by:
 - Moving to locations with electricity.
 - Waiting for power to return.
 
-Limitations
+3. Limitations
 
 - Some updates may be inaccurate or outdated.
 - Students may not know where to report electricity outages.
 - Information is often shared informally between students.
 
-Student Interviews
+4. Student Interviews
 
 We conducted interviews with students on campus to understand their experiences
 with electricity supply.
@@ -63,7 +62,7 @@ Third Interview
 
 Response:Yes, because students could easily check the electricity situation instead of asking different people, and we could be informed earlier.
 
- Proposed Solution
+5. Proposed Solution
 
 The proposed solution is a **Campus Electricity Monitoring and Reporting System**.
 
@@ -76,7 +75,7 @@ The platform will allow students to:
 
 The main goal is to make electricity reporting easier for students and provide a central location for electricity updates.
 
-Minimum Viable Product (MVP) and Main Features
+6. Minimum Viable Product (MVP) and Main Features
 
 The first version of the system will focus on the following features:
 
@@ -93,7 +92,7 @@ Receive Updates
 Students can view updates when reports are reviewed or electricity is reported to 
 have returned.
 
-Information Required for Reporting
+7. Information Required for Reporting
 
 Students will provide the following information when reporting an outage:
 
@@ -101,12 +100,12 @@ Students will provide the following information when reporting an outage:
 - Date and time of outage.
 - A short description of the problem.
 
-Expected Outcome
+8. Expected Outcome
 The system is expected to make electricity information more accessible, 
 reduce confusion among students and provide campus management with 
 organised reports that can help them understand recurring electricity problems.
 
- Conclusion
+9. Conclusion
 The Campus Electricity Monitoring and Reporting System aims to provide a simple
 and organised way for students to report electricity outages and access 
 reliable updates across different campus locations.
