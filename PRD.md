@@ -1,92 +1,103 @@
-PRODUCT REQUIREMENTS DOCUMENT (PRD)
+ PRODUCT REQUIREMENTS DOCUMENT (PRD)
 
-Campus Electricity Monitoring and Reporting System
+Campus Facilities and Utilities Reporting System
 
- 1. Product Overview
+1. Product Overview
 
-What is the product?
+ What is the product?
 
-The Campus Electricity Monitoring and Reporting System is a proposed digital platform designed to help students and other members of the university community report electricity outages and access information about electricity availability across different campus locations.
+The Campus Facilities and Utilities Reporting System is a proposed digital platform designed to help students and other members of the university community report, monitor, and receive updates about problems affecting campus facilities and essential services.
 
-The platform will provide a centralized system where users can submit outage reports, view reports submitted by others, and check the latest reported electricity status for selected locations.
+The platform will provide a centralized place where users can report different campus-related problems, view reports submitted by others, and monitor the progress of reported issues.
 
-The main purpose of the product is to improve communication about electricity interruptions and make electricity-related information easier to access within the university community.
+The system will cover five major categories:
 
-Background and Research
+1. Electricity and power supply.
+2. Water supply.
+3. Internet and Wi-Fi connectivity.
+4. Hostel and facility maintenance.
+5. Sanitation and waste management.
 
-Electricity plays an important role in students' academic and daily activities. Students depend on electricity to charge their laptops and phones, study at night, complete assignments, and access online learning resources.
+Instead of depending entirely on informal communication or searching for the appropriate person to report a problem, users will have one platform for submitting and viewing reports.
 
-To understand the problem better, three students were interviewed about their experiences with electricity interruptions.
+The main goal is to improve communication, make reporting easier, and provide better visibility into problems affecting campus life.
 
-Interview 1:
+ Background and Initial Research
+
+Campus facilities and essential services contribute to students' academic activities, comfort, and daily experiences.
+
+Problems involving electricity, water, internet connectivity, hostel maintenance, and sanitation can affect how students study, communicate, and carry out their everyday activities.
+
+Initial research was conducted through three student interviews focusing specifically on electricity interruptions.
+
+Interview 1
+
 Question: How does poor electricity supply affect your studies?
-Response: Sometimes, the student cannot charge their laptop or read comfortably at night especially during exam periods because there is no electricity. Power interruptions affect their studies.
+Response: Sometimes, the student cannot charge their laptop or read comfortably at night because there is no electricity. Power interruptions affect their studies.
 
-Interview 2:
+Interview 2
+
 Question: What do you normally do when electricity goes off?
-Response: Ask roommates if information was passed earlier or contacts friends in other hostels to find out whether they are experiencing the same issue.
+Response: The student asks roommates if information was passed earlier or contacts friends in other hostels to find out whether they are experiencing the same issue.
 
-Interview 3:
+Interview 3
+
 Question: Would a platform for reporting electricity outages be useful?
 Response: Yes. It would make it easier to check the electricity situation instead of asking different people. It could also help students receive information earlier.
 
-Initial Research Findings:
+Initial Research Insights
 
 - Electricity interruptions can affect students' academic activities.
-- Students depend on informal communication to obtain information about electricity availability.
+- Students currently depend on informal communication to obtain information about electricity availability.
 - The students interviewed expressed interest in a centralized reporting platform.
-- A reporting system could reduce the need to repeatedly ask different people for updates.
+- A reporting platform could make information easier to access.
 
-These findings are preliminary because only three interviews have been conducted. More interviews and surveys are needed to understand the experiences of a wider group of students.
+These interviews provide preliminary evidence for the electricity category only. Further interviews and surveys are required to investigate water supply, internet connectivity, maintenance, and sanitation problems.
 
- Existing Solutions and Their Limitations
+ Existing Ways of Handling Campus Problems
 
-Students currently cope with electricity interruptions through:
+Some methods students may use to handle or report campus problems include:
 
-- Asking roommates and hostel neighbours.
-- Using rechargeable fans and torch
+- Asking roommates, classmates, or neighbours.
 - Contacting friends in other hostels.
-- Waiting for electricity to return.
-- Using power banks and alternative charging options.
-- Moving to locations where electricity is available.
+- Informally informing hostel representatives or relevant staff.
+- Waiting for a problem to be resolved.
+- Finding alternative facilities or services when available.
 
-Limitations of these methods:
+These methods may not always provide centralized information about reported problems, their locations, or their current status. Further research is needed to establish how these methods differ across the five categories.
 
-- Information may not reach everyone.
-- Updates may be delayed or inaccurate.
-- There is no centralized place to view outage reports.
-- Students may need to contact several people before receiving useful information.
-- The batteries of the rechargeable appliances can run out
-- Information can become outdated.
+ 2. Problem Statement
 
-2. Problem Statement
+ What problem are we solving?
 
-What problem are we solving?
+Students and other members of the university community may experience problems involving essential campus services and facilities.
 
-Unreliable electricity supply can affect students' academic activities and daily routines on campus.
+These problems can include electricity interruptions, water shortages, poor internet connectivity, damaged hostel facilities, and sanitation issues.
 
-Students may experience difficulties charging laptops and mobile phones, studying at night, completing assignments, and carrying out other activities that depend on electricity.
+When such problems occur, users may not know where to report them, who is responsible for addressing them, or whether someone has already reported the same issue.
 
-Currently, students often depend on informal communication methods, such as asking roommates, classmates, or friends in other hostels to find out whether electricity is available.
+Depending on informal communication can make it difficult to obtain timely information and follow the progress of reported problems.
 
-These methods can be inconvenient because information may be delayed, incomplete, or unavailable.
+The central problem this project aims to address is the lack of a single, organized platform for reporting and tracking different campus facility and utility problems.
 
-The main problem is the absence of a centralized platform where students can report electricity interruptions and access information about reported electricity conditions across different campus locations.
+The proposed system will provide a centralized reporting process where users can identify a problem category, select the affected location, describe the issue, and view available updates.
 
-The proposed system aims to address this communication gap by providing a shared platform for electricity outage reporting and status updates.
+The platform will not directly repair facilities or control utility services. Its purpose is to improve reporting, communication, and visibility.
 
-3. Business Objectives
+ 3. Business Objectives
 
  What does the business want?
 
-Although this is an academic project rather than an established commercial business, the product has the following objectives:
+Although this is an academic project rather than an established commercial business, the proposed product has the following objectives:
 
-1. Improve access to information about electricity availability across campus.
-2. Reduce dependence on informal communication for electricity updates.
-3. Make reporting electricity outages easier and more organized.
-4. Encourage information sharing among students and other members of the university community.
-5. Provide a reliable starting point for managing electricity-related reports.
-6. Create a foundation for future improvements in campus communication.
+1. Provide a centralized platform for reporting different campus-related problems.
+2. Make it easier for students to communicate problems affecting their daily activities.
+3. Improve access to information about reported campus issues.
+4. Reduce dependence on scattered and informal reporting methods.
+5. Help users identify whether an issue has already been reported.
+6. Provide a way to monitor the progress and status of submitted reports.
+7. Encourage better communication between members of the university community and responsible personnel.
+8. Create a foundation for improving campus facility and utility management.
 
  4. Target Users
 
@@ -94,216 +105,295 @@ Although this is an academic project rather than an established commercial busin
 
 1. Students
 
-Students who need electricity information to plan their academic and personal activities. They will be able to submit outage reports and view information about electricity availability.
+Students are the primary target users. They will use the platform to report problems affecting their academic activities and everyday campus experiences.
 
 2. Hostel Residents
 
-Students living in university hostels who experience electricity interruptions and need information about the electricity situation in their locations.
+Students living in university hostels who may experience electricity, water, maintenance, internet, or sanitation problems.
 
-3. Lecturers
+3. Lecturers and Academic Staff
 
-Academic staff who may need electricity information when planning activities that depend on electricity.
+Academic staff who may experience problems with campus facilities and need access to information about reported issues.
 
-The primary target users for the first version will be students and hostel residents.
+4. University Staff
+
+Relevant university personnel who may use the platform to view submitted reports and monitor issues within their areas of responsibility, depending on their assigned access.
+
+Primary Users: Students and hostel residents.
+
+Secondary Users: Lecturers, relevant university staff, and authorized system administrators.
 
  5. Stakeholders
 
- Who is involved or affected?
+Who is involved or affected?
 
-1. Students: Primary users who submit reports and check electricity updates.
+**1. Students:** Primary users who submit reports and view information about campus problems.
 
-2. Hostel Residents: Users who may frequently need information about electricity availability in their residential locations.
+**2. Hostel Residents:** Users who report and monitor problems affecting their residential environments.
 
-3. Lecturers: Members of the university community who may benefit from electricity-related updates.
+**3. Lecturers:** Members of the academic community who may experience or report campus facility problems.
 
-4. University Management: A potentially important stakeholder because electricity supply and campus infrastructure affect the university community.
+**4. University Management:** A potentially important stakeholder because campus facilities and essential services fall within the university's operational environment.
 
-5. Project Development Team: Responsible for researching, designing, developing, testing, and maintaining the system.
+**5. Maintenance and Technical Personnel:** Relevant personnel who may be responsible for addressing reported electrical, plumbing, internet, or facility maintenance issues.
 
-6. System Administrators: Responsible for reviewing reports, managing submitted information, and updating report statuses if administrative functionality is implemented.
+**6. Sanitation Personnel:** Personnel who may be responsible for handling reported waste management and sanitation problems.
 
- 6. User Stories
+**7. Project Development Team:** Responsible for researching, designing, developing, testing, and maintaining the platform.
 
- What do users want to accomplish?
+**8. System Administrators:** Responsible for managing the platform, reviewing reports, and controlling authorized access.
+
+The specific responsibilities and participation of university departments will need to be confirmed through further research.
+
+## 6. User Stories
+
+### What do users want to accomplish?
 
 User stories describe what different users want to achieve through the platform.
 
-Student:
+Student
 
-- As a student, I want to report an electricity outage so that other students can be aware of the situation.
-- As a student, I want to select my campus location so that my report identifies where the outage occurred.
-- As a student, I want to view existing outage reports so that I can understand the reported electricity situation.
-- As a student, I want to check the latest reported status of a location so that I can plan my activities.
+- As a student, I want to select a problem category so that I can report the correct type of campus issue.
+- As a student, I want to select the affected location so that other users can identify where the problem occurred.
+- As a student, I want to describe a problem so that people reviewing the report can understand the situation.
+- As a student, I want to view existing reports so that I can know whether someone has already reported the same issue.
+- As a student, I want to check the status of a report so that I can know whether it is pending, being addressed, or resolved.
 
-Hostel Resident:
+Hostel Resident
 
-- As a hostel resident, I want to see reports from my location so that I can know whether other residents have reported an outage.
-- As a hostel resident, I want to see when a report was submitted so that I can judge how recent the information is.
+- As a hostel resident, I want to report problems affecting my hostel so that the appropriate people can become aware of them.
+- As a hostel resident, I want to view reports from my location so that I can stay informed about problems affecting other residents.
 
-System Administrator:
+Authorized Administrator
 
-- As an administrator, I want to review submitted reports so that inaccurate information can be identified.
-- As an administrator, I want to update report statuses so that users can see the latest available information.
+- As an administrator, I want to review submitted reports so that inappropriate or inaccurate reports can be identified.
+- As an administrator, I want to update report statuses so that users can monitor progress.
+- As an administrator, I want to organize reports by category and location so that issues can be managed more effectively.
 
-7. Functional Requirements
+## 7. Functional Requirements
 
-What must the system do?
+ What must the system do?
 
 The system should provide the following functions:
 
-1. Outage Reporting: Allow users to submit electricity outage reports.
-2. Location Selection: Allow users to select the campus location affected by an outage.
-3. Report Description: Allow users to provide a short description of the electricity problem.
-4. Date and Time Recording: Automatically record the date and time when a report is submitted.
-5. Report Storage: Store submitted reports in the system.
-6. Report Viewing: Allow users to view previously submitted reports.
-7. Location-Based Reports: Allow users to view reports according to selected campus locations.
-8. Electricity Status: Display the latest available reported electricity status for a selected location.
-9. Report Updates: Allow authorized users to update the status of reports.
-10. Report Status Identification: Distinguish between active, resolved, and unverified reports.
+1. Report Submission
 
-8. Non-Functional Requirements
+Allow users to submit reports about problems affecting campus facilities and utilities.
+
+2. Problem Category Selection
+
+Allow users to select one of the available categories:
+
+- Electricity and power supply.
+- Water supply.
+- Internet and Wi-Fi connectivity.
+- Hostel and facility maintenance.
+- Sanitation and waste management.
+
+3. Location Selection
+
+Allow users to identify the campus location where the problem occurred.
+
+4. Problem Description
+
+Allow users to provide a short description explaining the reported problem.
+
+5. Date and Time Recording
+
+Automatically record the date and time when a report is submitted.
+
+6. Report Storage
+
+Store submitted reports so they can be accessed later.
+
+7. Report Viewing
+
+Allow users to view previously submitted reports.
+
+8. Category and Location Filtering
+
+Allow users to find reports based on their selected problem category and campus location.
+
+9. Report Status Tracking
+
+Allow users to see whether a report is pending, in progress, or resolved.
+
+10. Report Management
+
+Allow authorized administrators to review reports and update their statuses.
+
+11. Duplicate Report Awareness
+
+Help users identify existing reports about similar problems in the same location to reduce unnecessary duplicate submissions.
+
+ 8. Non-Functional Requirements
 
  How well must it operate?
 
 1. Usability
 
-The platform should be simple, understandable, and easy to navigate, even for users with limited technical knowledge.
+The platform should have a simple and understandable interface that users can navigate without requiring advanced technical knowledge.
 
 2. Performance
 
-The system should load reports and display electricity information within a reasonable time.
+The system should load reports and display information within a reasonable time.
 
 3. Reliability
 
-Submitted reports should be stored correctly and remain accessible to users.
+Submitted reports should be stored correctly and remain accessible when needed.
 
 4. Security
 
-The system should protect user information and prevent unauthorized modification of reports.
+The system should protect user information and prevent unauthorized access or modification of reports.
 
 5. Scalability
 
-The system should be designed to support additional users and campus locations in the future.
+The system should support additional users, categories, and campus locations as the project grows.
 
-6. Availability
+**6. Availability**
 
 The platform should be accessible whenever users need it, subject to internet availability and system maintenance.
 
-7. Maintainability
+**7. Maintainability**
 
 The system should be structured so that developers can identify problems, fix errors, and introduce improvements without unnecessarily affecting existing features.
 
- 9. Scope and Priorities (MVP)
+**8. Compatibility**
+
+The platform should work on commonly used mobile devices and computer browsers.
+
+ 9. Scope and Priorities
 
  What is included in the MVP?
 
-The Minimum Viable Product (MVP) is the first version of the system. It will focus on the most important features needed to address the identified problem.
+The Minimum Viable Product (MVP) is the first working version of the system. It will focus on providing a simple but useful reporting and tracking process across the five problem categories.
 
- High Priority — Initial Version
+ High Priority — MVP
 
-- Submitting electricity outage reports.
-- Selecting the affected campus location.
-- Adding descriptions to reports.
-- Recording report dates and times.
-- Viewing existing outage reports.
-- Checking the latest reported electricity status.
-- Updating report statuses through authorized users.
+- Display the five problem categories.
+- Allow users to submit reports.
+- Allow users to select the affected campus location.
+- Allow users to describe reported problems.
+- Record report dates and times.
+- Store submitted reports.
+- Display existing reports.
+- Allow users to filter reports by category and location.
+- Display report statuses.
+- Allow authorized administrators to update report statuses.
 
- Medium Priority — Future Improvements
+Medium Priority — Future Improvements
 
-- User account registration and login.
-- Notifications for new outage reports.
-- Location-based filtering.
+- User registration and login.
+- Notifications when reports are updated.
+- Image uploads to provide evidence of reported problems.
 - An administrator dashboard.
+- Advanced search and filtering.
 - Report history and statistics.
 
  Low Priority — Long-Term Improvements
 
-- Integration with official university electricity systems, if access is available.
-- Automated electricity monitoring.
-- Advanced outage analytics.
-- Predictive electricity availability information.
-
-These future improvements will not be included in the initial MVP.
+- Integration with official university management systems, if access is available.
+- Automated assignment of reports to responsible departments.
+- Advanced analytics for identifying frequently reported problems.
+- Mobile application development.
+- Data-driven reporting dashboards for university management.
 
  Out of Scope
 
-The first version will not directly control electricity supply, repair electrical infrastructure, or guarantee that electricity will be restored.
+The initial system will not:
 
-Its purpose is to provide information through user-submitted reports and authorized status updates.
+- Directly repair damaged facilities.
+- Control electricity or water supply.
+- Automatically detect every campus problem.
+- Guarantee that reported problems will be resolved within a particular time.
+- Replace the university's official maintenance or emergency reporting procedures.
+
+The platform will focus on reporting, organizing, and tracking information.
 
  10. Acceptance Criteria
 
  How do we verify features?
 
-A feature will be considered acceptable when it meets its defined conditions.
+A feature will be considered acceptable when it meets the following conditions.
 
-1. Outage Reporting
+1. Problem Category Selection**
 
-- A user can select a campus location.
-- A user can enter a description of the outage.
+- Users can view the five available problem categories.
+- Users can select a category before submitting a report.
+- The selected category is correctly associated with the submitted report.
+
+2. Report Submission**
+
+- Users can select a campus location.
+- Users can provide a description of the problem.
 - The system records the date and time.
 - The report is successfully saved.
 
-2. Viewing Reports
+3. Viewing Reports**
 
-- Users can access previously submitted reports.
-- Each report displays its location and submission time.
-- Reports can be identified by their status.
+- Users can view previously submitted reports.
+- Each report displays its category, location, description, and submission time.
+- Reports display their current status.
 
-3. Checking Electricity Status
+4. Filtering Reports**
 
-- Users can select a campus location.
-- The system displays available reports for that location.
-- The latest available reported status is clearly displayed.
+- Users can filter reports by problem category.
+- Users can filter reports by campus location.
+- The system displays reports matching the selected filters.
 
-4. Updating Reports
+5. Report Status Tracking**
 
-- Authorized users can update a report's status.
-- The updated status is saved.
-- Other users can view the updated information.
+- Users can identify whether a report is pending, in progress, or resolved.
+- Authorized administrators can update report statuses.
+- Updated statuses are saved and displayed correctly.
 
-5. Report Identification
+6. Report Management**
 
-- Reports marked as unverified are distinguishable from reviewed reports.
-- Resolved reports are distinguishable from active reports.
+- Unauthorized users cannot modify administrator-controlled report statuses.
+- Authorized administrators can review and manage submitted reports.
 
  11. Assumptions and Open Questions
 
- What remains unconfirmed?
+What remains unconfirmed?
 
-The proposed system is based on the assumption that students would find a centralized electricity reporting platform useful.
+The proposed system is based on the assumption that a centralized reporting platform could make it easier for students and other campus users to communicate problems affecting facilities and essential services.
 
-However, some questions still require further investigation:
+However, several questions still require investigation:
 
 1. Which specific campus locations should be supported in the first version?
-2. Will users need to create accounts before submitting reports?
-3. Who will be responsible for reviewing and verifying submitted reports?
-4. How will the system prevent false or duplicate reports?
-5. Should students be allowed to report when electricity has been restored?
-6. Will university management participate in providing official electricity updates?
-7. How frequently should outdated reports be reviewed or marked as resolved?
-8. Should the system support anonymous reports?
+2. Which of the five categories are the most common problems experienced by students?
+3. Will users need to create accounts before submitting reports?
+4. Who will be responsible for reviewing and verifying submitted reports?
+5. Which university departments or personnel should receive reports?
+6. How will the system prevent false or duplicate reports?
+7. Should users be allowed to submit reports anonymously?
+8. Should users be able to upload pictures as evidence?
+9. How will users know when a reported issue has actually been resolved?
+10. Will university management or relevant departments be willing to participate in the platform?
 
  Risks and Limitations
 
-**Inaccurate Reports:** Users may submit incorrect or misleading information. Report review and verification procedures may help reduce this problem.
+Inaccurate Reports: Users may submit incorrect or misleading information. Report review and verification procedures may help reduce this problem.
 
-**Outdated Information:** Reports may remain visible after electricity has returned. Timestamps and status updates will help users understand how recent the information is.
+Duplicate Reports: Multiple users may report the same issue. Category and location filtering can help users identify existing reports.
 
-**Limited Participation:** The system may not be useful if very few students participate. Reporting should be simple and accessible.
+Outdated Information: Reports may remain visible after an issue has been resolved. Timestamps and status updates will help users understand how recent information is.
 
-**Internet Access:** Users need an internet connection to access the platform.
+Limited Participation: The system may not be useful if very few students participate. The platform should make reporting simple and accessible.
 
-**Verification Challenges:** Without official electricity information, the system may not always be able to confirm whether a report is accurate.
+Internet Access: Users will need an internet connection to access the platform.
 
- Conclusion
+Verification Challenges: The system may not always be able to independently confirm whether a reported problem is accurate or resolved.
 
-The Campus Electricity Monitoring and Reporting System aims to address the difficulty students experience when trying to obtain information about electricity availability across campus.
+Departmental Coordination: The effectiveness of the system may depend on cooperation from the relevant university personnel. This will need to be investigated
+Conclusion
 
-Initial interviews suggest that students rely on informal communication to understand electricity conditions and that a centralized reporting platform could make this process easier.
+The Campus Facilities and Utilities Reporting System aims to provide a centralized way for students and other members of the university community to report and monitor problems affecting campus facilities and essential services.
 
-By focusing on outage reporting, location selection, report viewing, and status updates, the proposed MVP provides a practical starting point for addressing the identified problem.
+By covering electricity, water supply, internet connectivity, hostel maintenance, and sanitation, the platform addresses a broader range of potential campus challenges.
 
-Further research, interviews, and user feedback will help validate the proposed features and guide future development.
+The proposed MVP focuses on problem reporting, category selection, location identification, report viewing, filtering, and status tracking.
+
+Initial interviews provide preliminary evidence of communication difficulties relating to electricity interruptions. Further research is required to validate the other problem categories, understand user needs, and identify the appropriate university personnel who may be involved.
+
+The system will provide a practical foundation for improving communication and visibility around campus-related problems.
