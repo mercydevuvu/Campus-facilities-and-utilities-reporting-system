@@ -1,4 +1,6 @@
-# Campus Electricity
+
+
+Target Users# Campus Electricity
 
  Project Overview
 
@@ -15,11 +17,10 @@ be restored. They sometimes experience unexpected power interruptions
 without receiving reliable information and often depend on friends 
 or hostel representatives for updates.
 
-Target Users
-
 Students: Need reliable electricity information to support their academic activities.
 
 HostelResidents: Need updates about electricity availability in their hostels.
+Lecturers: May experience interruptions during online teaching and other academic activities.
 
 Lecturers:May experience interruptions during online teaching and other academic activities.
 
